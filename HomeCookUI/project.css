@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background: url(Image/salad-2068220_1280.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Gill Sans MT';
+    color: white;
+}
+
+.new img {
+    height: 70px;
+}
