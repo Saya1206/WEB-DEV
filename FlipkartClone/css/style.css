@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background-color: #2874f0;
+    height: 58px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+nav 
+{
+    display: flex;
+}
+.logo 
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    width: 88px;
+    padding: 0px 20px;
+}
+nav ul 
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li
+{
+    list-style: none;
+    padding : 20px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a :hover
+{
+    font-weight: bold;
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+}
+
+.search input
+{
+    width : 30vw;
+    height: 25px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.slider{ 
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.container
+{
+    min-height: calc(100vh - 58px - 10vh);
+}
+.card 
+{
+    max-width: 91vw;
+    margin: 37px auto;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card h2 
+{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 15px;
+}
+
+
+footer
+{
+    height: 10vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
